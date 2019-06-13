@@ -5,6 +5,7 @@ import VideoPlayer from '../components/VideoPlayer.js';
 //dispatchers with your VideoPlayer component props.
 
 const mapStateToProps = (state) => {
+  console.log(state);
   return {
     video: state.currentVideo
   };
