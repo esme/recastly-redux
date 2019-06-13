@@ -1,7 +1,7 @@
 import React from 'react';
-import VideoListContainer from '../VideoListContainer.js';
-import VideoPlayerContainer from '../containers/VideoPlayer.js';
-import SearchContainer from '../containers/Search.js';
+import VideoListContainer from '../containers/VideoListContainer.js';
+import VideoPlayerContainer from '../containers/VideoPlayerContainer.js';
+import SearchContainer from '../containers/SearchContainer.js';
 
 class App extends React.Component {
   constructor(props) {
